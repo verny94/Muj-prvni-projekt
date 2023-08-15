@@ -1,0 +1,32 @@
+h1 {
+    color: rgb(11, 11, 222);
+    background: rgba(167, 173, 239,0.2);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 5px 5px 10px blue;
+}
+
+p   {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+li  {
+    text-align: justify;
+}
+
+img {
+    width: 500px;
+    border-radius: 35px;
+    box-shadow: 7px 8px 10px black;
+}
+
+a {
+    text-decoration: none;
+    background: #c3c2cb ;
+    border-radius: 25px;
+    font-size: 40px;
+    box-shadow: 5px 10px 30px;
+    color: black;
+}

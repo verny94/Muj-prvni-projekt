@@ -2,13 +2,39 @@
 <html lang="cs">
 <head>
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Stránka o CSS</title>
+    <link rel="stylesheet" href="stylyindex.css">
+	<title>S HTML jde ruku v ruce CSS</title>
 </head>
 
 <body>
     <h1>Učím se programovat v CSS</h1>
-    <p>Je to docela sranda.</p>
+    <hr>
+    <p>Cascading Style Sheets (CSS) jsou jazyk používaný pro popis vzhledu a formátování webových stránek napsaných v jazyce HTML (HyperText Markup Language).<br> CSS umožňuje oddělit strukturu obsahu (HTML) od jeho prezentace (vizuálního stylu), což usnadňuje úpravy vzhledu a udržuje kód čistý a organizovaný. Zde jsou základní koncepty CSS:</p>
 
+    <ol>
+        <li>Selektory: Selektory jsou způsoby, jak vybrat a cílit na určité části HTML dokumentu, na které chcete aplikovat styly. Například:<br>
+                h1 {
+                    color: blue;
+                }<br>
+                <p>Tento selektor zvolí všechny elementy h1 na stránce a změní jejich barvu na modrou.</p>
+        </li>
+        <li>Vlastnosti a hodnoty: CSS definuje různé vlastnosti, které ovlivňují vzhled elementů. Každá vlastnost má svou hodnotu, která určuje, jak bude vlastnost nastavena.<br>
+                 Například:
+                 p {
+                    font-size: 16px;
+                    margin: 10px;
+                  }
+                  <p>Tady se nastavuje velikost písma pro všechny p elementy na 16 pixelech a okraj (margin) kolem nich na 10 pixelů.</p>
+        </li>
+        <li>Hodnoty jednotek: CSS používá různé jednotky pro vyjádření hodnot, například pixely (px), procenta (%), em, rem, atd. <br>Pixely jsou absolutní jednotka, zatímco procenta, em a rem jsou relativní k různým aspektům webového prohlížeče nebo elementu.</li>
+        <li>Kaskádování a dědičnost: CSS funguje na principu kaskádování, což znamená, že styly mohou být aplikovány postupně na stejný prvek, a to buď z různých stylů, nebo z různých částí kódu.<br> Dědičnost znamená, že některé styly jsou automaticky aplikovány na potomky elementů.</li>
+        <li>Box model: Každý element na stránce je zobrazen jako obdélníkový box, který zahrnuje okraj (margin), rámeček (border), vnitřní prostor (padding) a obsah (content).<br> Styly mohou ovlivnit velikost těchto částí a jejich vzhled.</li>
+        <li>Pozice a uspořádání: CSS umožňuje definovat způsob, jakým budou elementy umístěny a uspořádány na stránce.<br> Například s vlastností position můžete ovládat, zda bude prvek umístěn staticky, relativně, absolutně nebo fixně.</li>
+        <li>Media queries: Media queries umožňují používat různé styly pro různá zařízení nebo šířky obrazovky.<br> To je důležité pro vytváření responzivních designů, které se automaticky přizpůsobují různým velikostem obrazovky.</li>
+    
+    </ol>
+            <p>To jsou jen základní koncepty CSS. Když je zvládnete, můžete vytvářet složitější a estetičtější designy pro webové stránky.</p>
+
+    <img src="img/CSS3_logo_and_wordmark.svg.png" alt="CSS logo"><br>        
     <a href="index.html">Návrat na úvodní stránku.</a>
 </body>
